@@ -1,0 +1,24 @@
+.green_grad:hover{
+    background: radial-gradient(85.16% 132.43% at 10% 99%, #8BB43F 0%, #111616 70%);
+    box-shadow: 0px 0px 10px #8BB43F ;
+}
+
+.sky_grad:hover{
+    background: radial-gradient(85.16% 132.43% at 10% 99%, #3A85C6 0%, #111616 70%);
+    box-shadow: 0px 0px 10px #3A85C6  ;
+}
+
+.yellow_grad:hover{
+    background: radial-gradient(85.16% 132.43% at 10% 99%, #BD6E04 0%, #111616 70%);
+    box-shadow: 0px 0px 10px #BD6E04 ;
+}
+
+.purple_grad:hover{
+    background: radial-gradient(85.16% 132.43% at 10% 99%, #4556EC 0%, #111616 70%);
+    box-shadow: 0px 0px 10px #4556EC ;
+}
+
+.red_grad:hover{
+    background: radial-gradient(85.16% 132.43% at 10% 99%, #9D2A52 0%, #111616 70%);
+    box-shadow: 0px 0px 10px #9D2A52 ;
+}

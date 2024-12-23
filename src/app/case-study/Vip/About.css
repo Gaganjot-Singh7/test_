@@ -1,0 +1,48 @@
+.vip_heading{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.vip_about_line{
+    width: 580px;
+    height: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.vip_about_Section{
+    
+    color: aliceblue;
+    background:#1F222F;
+    padding: 50px 0px;
+}
+
+.vip_about_detail{
+    font-size: 18px;
+    width: 68%;
+    text-align: center;
+    margin: 5px auto;
+    padding: 20px 0px;
+}
+
+
+@media (max-width:768px){
+    .vip_heading {
+        font-size: 24px;
+    margin-bottom: 15px;}
+
+        .vip_about_detail{
+            font-size: 16px;
+            width: 100%;
+            text-align: left;
+        padding: 0;
+
+        
+        }
+
+            .vip_about_line{
+                display: none;
+            }
+
+}

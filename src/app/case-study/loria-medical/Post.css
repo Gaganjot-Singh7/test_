@@ -1,0 +1,61 @@
+.posts{
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+   
+}
+
+
+.post_img{
+    width: 30%;
+}
+.post_heading{
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.post_heading_social{
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.loria_post_underline{
+    width: 300px;
+    position: relative;
+    bottom: 28px;
+    height: 15px;
+}
+.loria_post_underline2{
+    width: 433px;
+    height: 15px;
+    position: relative;
+    bottom: 28px;
+}
+@media (max-width:768px)    {
+    .post_heading {
+        padding: 6px 0px;
+        text-align: center;
+        font-size: 24px;}
+
+        .loria_post_underline{
+            display: none;
+        }
+        .loria_post_underline2{
+            display: none;
+        }
+        .post_heading_social
+            {
+                padding: 6px 0px;
+                text-align: center;
+                font-size: 24px;}
+
+        .posts{
+            justify-content: space-between;
+            margin: 20px 0px;
+        }
+        
+        }

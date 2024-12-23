@@ -1,0 +1,148 @@
+.smartPet_Solution_section {
+    color: aliceblue;
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sp_solution_line {
+    width: 260px;
+    height: 15px;
+    bottom: 10px;
+    position: relative;
+}
+
+.Solution_section {
+    padding-top: 20px;
+}
+
+.smartPet_solution_para {
+    width: 58%;
+    text-align: center;
+    font-weight: 400;
+    Line-height: 36.75px;
+    font-size: 18px;
+    padding: 16px;
+}
+
+.solution_title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.row .smartPet_div_solution {
+    border-right: 1px solid white;
+    margin: 25px 9px;
+    width: 24%;
+}
+
+
+.row .smartPet_div_solution:nth-child(4) {
+    border-right: none;
+   
+}
+
+.row .smartPet_div_solution_two {
+    border-right: 1px solid white;
+    margin: 25px 9px;
+    width: 24%;
+
+}
+
+.smartPet_div_solution_two_main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.smartPet_solution_sections {
+    font-weight: 500;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+.solution_section {
+    display: flex;
+}
+
+.solution_section img {
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.solution_section p {
+    line-height: 27px;
+    width: 85%;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+.div_solution {}
+
+
+
+@media (max-width:768px) {
+
+    .smartPet_solution_sections {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+
+
+    .smartPet_Solution_section {
+        padding-top: 50px;
+    }
+
+
+
+    .row .smartPet_div_solution_two {
+        border-right: none;
+        margin: 5px 0px;
+    }
+
+    .smartPet_solution_para {
+        width: 100%;
+        font-weight: 400;
+        Line-height: 24.75px;
+        font-size: 16px;
+        text-align: left !important;
+        padding: 0;
+
+    }
+
+    .solution_section p {
+ margin: 0;
+        width: 100%;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .solution_title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .row .smartPet_div_solution {
+        border-right: none;
+        margin:5px 0px;
+        width: 100%;
+    }
+
+    .solution_part_heading {
+        padding: 0;
+    }
+
+    .sp_solution_line {
+        display: none;
+    }
+
+    .solution_section img {
+        width: 20px;
+        height: 20px;
+    }
+}

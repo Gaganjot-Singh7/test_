@@ -1,0 +1,169 @@
+.bgBlack {
+    background: #000;
+    color: aliceblue;
+}
+.challenge_box {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.loria_challenge_underline {
+    width: 260px;
+    height: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.li_challenge {
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+
+.li_challenge:nth-child(even) {
+    margin: 0px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.challenge_title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.loria_challenge {
+    padding-top: 30px;
+}
+
+.challenge_para {
+    text-align: center;
+    width: 75%;
+    font-size: 18px;
+    padding: 0;
+}
+
+.loria_img_main {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  
+  
+}
+
+.loria_img_profile {
+  
+    width: 90%;
+    object-fit: contain;
+    height: 100%;
+    margin: auto;
+
+}
+
+.line {
+    width: 10px;
+    height: 100%;
+}
+
+
+.ul_challenge {
+    padding: 0;
+}
+
+.line_img {
+    height: 550px;
+
+}
+
+/* .Flipped{
+    direction: rtl;
+} */
+
+.ul_part::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.ul_part::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #396ADB 0%, #7213E1 100%);
+    border-radius: 0px;
+}
+
+
+
+
+
+.ul_part {
+    overflow: auto;
+    height: 650px;
+    direction: rtl;
+    text-align: left;
+
+}
+
+
+@media (max-width: 786px) {
+
+    .ul_part::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .li_challenge{
+        padding-left: 0;
+       
+    }
+
+    .ul_part {
+        overflow:visible;
+        height: auto;
+    }
+
+    .loria_challenge_underline {
+        display: none;
+    }
+
+    .li_challenge:nth-child(even) {
+
+        font-size: 14px;
+    }
+
+    .challenge_box {
+        padding-top: 50px;
+    }
+
+    .line_img {
+        display: none !important;
+    }
+
+    .challenge_para {
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        padding: 0;
+    }
+
+
+    .li_challenge {
+        margin: 18px 0px !important;
+        font-size: 16px;
+    }
+
+    .challenge_title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        /* text-align: left; */
+    }
+
+    .loria_img_profile {
+        width: 85%;
+        margin: auto;
+
+    }
+
+    .loria_img_main {
+
+        display: flex;
+        align-items: center;
+    }
+}

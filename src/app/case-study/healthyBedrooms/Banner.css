@@ -1,0 +1,23 @@
+.healthyBedrooms_detail_banner{
+    color:#F47B52;
+    font-weight: 700;
+}
+
+
+.b2b-sub-headings-bold-healthyBedrooms{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.healthyBedrooms_banner{
+    background: rgb(24, 24, 24);
+    padding: 50px 0px;
+    color:white;
+}
+
+
+@media (max-width:768px){
+    .b2b-sub-headings-bold-healthyBedrooms{
+        font-size: 24px;
+    }
+}

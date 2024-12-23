@@ -1,0 +1,151 @@
+.bgblack {
+    background: black;
+    color: aliceblue;
+    padding: 50px 0px;
+
+}
+
+.objective_underline {
+    width: 50%;
+}
+
+.loria_obj_line {
+    width: 250px;
+    height: 15px;
+    position: relative;
+    bottom: 15px;
+}
+
+.img_li {
+    width: 25px;
+    height: 25px;
+}
+
+.Objective_sec {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.li_data_data {
+    padding-left: 10px;
+}
+
+.loria_ul {
+    padding: 0;
+}
+
+.li_data_img {
+    width: 30px;
+    height: 21px;
+}
+
+.Objective {
+    width: 50%;
+
+}
+
+.li_data_child {
+    display: flex;
+}
+
+.img_obj {
+    width: 100%;
+
+    margin: 0 20px;
+}
+
+.img_obj_inner {
+    width: 100%;
+    margin: auto;
+
+
+    object-fit: cover;
+}
+
+.h2_obj {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 14px 0px;
+}
+
+.obj_par {
+
+    width: 91%;
+}
+
+.img_profile {
+    width: 75%;
+}
+
+@media (max-width:768px) {
+
+    .loria_obj_line {
+        display: none;
+    }
+
+    .img_profile {
+        width: 100% !important;
+    }
+
+    .h2_obj {
+        text-align: center;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    .bgblack {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-style: "Poppins";
+        font-size: 16px;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+
+    .Objective {
+        width: 100%;
+
+        padding: 0;
+    }
+
+
+
+    .Objective_sec {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .li_data {
+        /* text-align: justify; */
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .obj_par {
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+
+    }
+
+    .h2_obj {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .img_obj {
+        margin: 0 auto;
+    }
+
+    .li_data_data h6 {
+        font-weight: 600;
+    }
+}

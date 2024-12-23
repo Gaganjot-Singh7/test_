@@ -1,0 +1,127 @@
+.techcity_Solution_section {
+    background: #000;
+    color: aliceblue;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+
+
+.t_sol_line {
+    width: 250px;
+    height: 15px;
+    bottom: 10px;
+    position: relative;
+}
+
+.solution_para {
+    width: 58%;
+    font-weight: 400;
+    Line-height: 36.75px;
+    font-size: 18px;
+    padding: 16px;
+    text-align: center;
+
+}
+
+.solution_title {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.row .techcity_div_solution {
+    border-right: 1px solid white;
+    margin: 25px auto;
+}
+
+
+
+.row .techcity_div_solution:nth-child(3) {
+    border-right: none;
+    
+}
+
+
+
+
+.techcity_solution_sections {
+    font-weight: 500;
+}
+
+.solution_section {
+    display: flex;
+}
+
+.solution_section img {
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+    margin: 0px 10px;
+}
+
+.solution_section p {
+
+    width: 85%;
+    font-size: 18px;
+
+}
+
+
+.techcity_solution_para{
+    text-align: center;
+}
+
+@media (max-width:768px) {
+
+    .solution_section img{
+        width: 20px;
+        height: 20px;
+    }
+    .solution_para {
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .row .techcity_div_solution_two {
+        border-right: none;
+        margin: 5px 0px;
+    }
+
+    .techcity_solution_para {
+        width: 100%;
+        font-weight: 400;
+
+        Line-height: 24.75px;
+        font-size: 16px;
+        padding: 0;
+
+    }
+
+    .solution_section p {
+        margin: 0;
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .solution_title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .row .techcity_div_solution {
+        border-right: none;
+        margin: 10px auto !important;
+    }
+
+    .solution_part_heading {
+        padding: 0;
+    }
+
+    .t_sol_line {
+        display: none;
+    }
+
+}

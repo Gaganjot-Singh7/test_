@@ -1,0 +1,190 @@
+.healthyBedrooms_final{
+    color: aliceblue;
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.final_heading{
+text-align: center;
+}
+
+.healty_bedrooms_final_heading{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.div_result_underline{
+    text-align: center;
+}
+
+
+.result_healthyBedrooms{
+    width: 200px;
+    position: relative;
+    height: 14px;
+    bottom: 12px;
+  
+}
+
+
+
+.final_heading p{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.healthyBedrooms_child_image_heading{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.healthyBedrooms_images_child{
+    padding: 20px 0px;
+}
+
+.healthyBedrooms_child_des{
+    width: 80%;
+    margin: 0 auto;
+}
+.healthyBedrooms_images_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 50px 20px 40px 20px;
+    text-align: center;
+    width: 22%;
+    margin: 30px auto;
+    background: #1F222F;
+    
+}
+
+
+
+
+.healthyBedrooms_images_parent_arrow{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+
+.healthyBedrooms_child_image_heading{
+color: #F47B52;
+font-size: 18px;
+font-weight: 600;
+}
+
+
+.final_images{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.final_images_second{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+   justify-content: center;
+   
+}
+
+.final_images_second .healthyBedrooms_images_parent{
+    margin: 0px;
+}
+
+
+.healthyBedrooms_child_image_inner{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+    .final_heading h2 {
+        font-size: 24px;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+}
+
+.div_result_underline{
+    text-align: left;
+}
+
+
+.result_healthyBedrooms{
+    display: none;
+}
+
+
+.final_heading p{
+  text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+
+
+.healthyBedrooms_final {
+    
+    padding: 50px auto;
+}
+
+
+.healthyBedrooms_images_parent_arrow{
+    display: none;
+}
+
+.final_images{
+    display: block;
+}
+
+
+.healthyBedrooms_child_image_heading{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.healthyBedrooms_child_des{
+    font-size: 16px;
+}
+
+.final_images{
+    padding: 15px 0px;
+
+}
+
+.poppins{
+    font-style: "poppins";
+}
+.healthyBedrooms_images_parent {
+   padding: 20px;
+    width: 85%;
+    margin: 25px auto;
+
+}
+
+.healthyBedrooms_child_des {
+    width: 100%;}
+
+
+    .final_images_second{
+        margin: 0px;
+    }
+
+
+    .final_images_second .healthyBedrooms_images_parent {
+        margin-bottom: 25px;
+    }
+}

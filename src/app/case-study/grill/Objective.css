@@ -1,0 +1,99 @@
+.main_grill_detail_page{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+
+    color: aliceblue;
+    justify-content: space-around;
+}
+
+.section_grill{
+    background: #000;
+}
+
+.g_obj_line{
+    width: 250px;
+    height: 15px;
+    position: relative;
+    bottom: 7px;
+}
+.grill_h2_obj{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.grill_detail_page_section_one{
+    margin: auto 0;
+    width: 40%;
+}
+
+.grill_detail_page_section_two{
+    margin: auto 0;
+    width: 40%;
+}
+
+
+.grill_ul{
+    font-size: 18px;
+}
+
+.grill_obj_par{
+    font-size: 18px;
+}
+
+
+
+.grill_li_points_data{
+    margin-left: 9px;
+    line-height: 20px;
+    padding-top: 15px;
+
+}
+
+.grill_li_data>div span{
+    padding-top: 10px;
+}
+
+
+@media (max-width:768px){
+
+    .main_grill_detail_page{
+        padding-top: 50px;
+        display: flex;
+      
+        color: aliceblue;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grill_detail_page_section_one{
+        margin: auto 0;
+        width: 100%;
+    }
+    
+    .grill_detail_page_section_two{
+        padding-top: 20px;
+        
+        margin: auto 0;
+        width: 100%;
+    }
+    .grill_h2_obj {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .grill_obj_par {
+        font-size: 16px;
+    }
+    .grill_ul {
+        padding-left: 0;
+        font-size: 16px;
+    }
+    .g_obj_line{
+        display: none;
+    }
+    .grill_li_points_data{
+        font-size: 16px;
+        padding-top: 14px;
+    }
+}

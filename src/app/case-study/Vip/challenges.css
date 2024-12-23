@@ -1,0 +1,175 @@
+.container_vip {
+    color: aliceblue;
+    padding: 50px 0px;
+}
+
+.challenge_line {
+    width: 280px;
+    height: 15px;
+    position: relative;
+    bottom: 7px;
+
+}
+
+.vip_challenge_section {
+    text-align: center;
+}
+
+.vip_img_main {
+    display: flex;
+    justify-content: end;
+}
+
+.vip_challenge_title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.vip_line {
+    width: 10px;
+    height: 450px;
+    position: sticky;
+}
+
+.vip_challenge_para {
+    width: 60%;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.vip_img_data {
+
+    margin-top: 30px !important;
+
+}
+
+.vip_ul_challenge {
+    overflow: auto;
+    height: 500px;
+}
+
+
+.vip_ul_challenge::-webkit-scrollbar {
+    width: 10px;
+    background: white;
+}
+
+.vip_ul_challenge::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #396ADB 0%, #7213E1 100%);
+    border-radius: 0px;
+}
+
+.vip_ul_part {
+    direction: rtl;
+    text-align: left;
+}
+
+.vip_li_challenge {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin: 20px auto;
+
+
+}
+
+.vip_li_challenge:nth-child(even) {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.line_img {
+    text-align: center;
+}
+
+.vip_img_profile {
+    width: 450px;
+    object-fit: contain;
+    margin: auto;
+}
+
+
+@media (max-width:768px) {
+
+
+    .vip_ul_challenge::-webkit-scrollbar {
+        display: none;
+    }
+
+
+
+    .vip_challenge_para {
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .vip_img_data {
+        padding-top: 10px;
+    }
+
+    .vip_line {
+        display: none;
+    }
+
+    .challenge_box {
+        padding: 10px 0px;
+    }
+
+    .vip_img_data {
+        padding: 0;
+    }
+
+
+    .container_vip {
+        padding: 0;
+    }
+
+    .vip_img_profile {
+
+        object-fit: contain;
+        width: 70%;
+        margin: auto;
+
+    }
+
+
+
+    .vip_ul_challenge{
+        overflow: visible;
+        padding: 10px 0px;
+    }
+    .vip_li_challenge {
+        font-size: 16px;
+        
+        
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .vip_challenge_title {
+        text-align: center;
+        font-size: 24px;
+    }
+
+
+    .vip_li_challenge {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
+
+    .vip_li_challenge:nth-child(even) {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .challenge_line {
+        display: none;
+    }
+
+}

@@ -1,0 +1,67 @@
+.techcity_heading {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.techcity_about_Section {
+    background: #1F222F;
+    color: aliceblue;
+    padding: 50px 0px;
+}
+
+.techcity_about_line{
+    width: 380px;
+    height: 15px;
+    position: relative;
+    bottom: 28px;
+  
+}
+
+.techcity_about_detail {
+    font-size: 18px;
+    width: 65%;
+    text-align: center;
+    margin: 5px auto;
+    padding: 20px 0px;
+}
+
+.t_heading {
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .techcity_about_detail {
+
+        padding: 6px 0px;
+    }
+
+
+    .t_heading {
+        text-align: center;
+    }
+
+    .techcity_about_line{
+        display: none;
+    }
+
+    .techcity_about_Section {
+        padding: 50px 0px;
+    }
+
+    .techcity_heading {
+        font-size: 24px;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .techcity_about_detail {
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+
+    }
+
+
+
+}

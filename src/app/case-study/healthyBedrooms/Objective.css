@@ -1,0 +1,115 @@
+.main_healthyBedrooms_detail_page{
+    padding-top: 50px;
+    display: flex;
+
+    color: aliceblue;
+    justify-content: space-around;
+}
+
+
+.objective_section {
+    margin: 10px 0px;
+}
+
+
+.objective_underline{
+    width: 240px;
+    height: 15px;
+    display: relative;
+    bottom: 18px;
+}
+
+.section_healthyBedrooms{
+    background: #000;
+}
+.healthyBedrooms_h2_obj{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.healthyBedrooms_detail_page_section_one{
+    margin: auto 0;
+    width: 40%;
+}
+
+.healthyBedrooms_detail_page_section_two{
+    margin: auto 0;
+    width: 40%;
+}
+
+
+.healthyBedrooms_ul{
+    font-size: 18px;
+    padding-left: 0;
+}
+
+.healthyBedrooms_obj_par{
+    font-size: 18px;
+}
+
+
+
+.healthyBedrooms_li_points_data{
+    margin-left: 9px;
+    line-height: 25px;
+    padding-top: 15px;
+
+}
+
+.healthyBedrooms_li_data>div span{
+    padding-top: 10px;
+   
+}
+
+.healthyBedrooms_li_data img{
+    padding-top: 2px;
+}
+
+@media (max-width:768px){
+
+
+    .objective_underline {
+    display: none;
+    }
+
+    .main_healthyBedrooms_detail_page{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+      
+        color: aliceblue;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_healthyBedrooms{
+        padding: 50px auto;
+    }
+
+    .healthyBedrooms_detail_page_section_one{
+        margin: auto 0;
+        width: 100%;
+    }
+    
+    .healthyBedrooms_li_data img{
+        padding-top: 10px;
+    }
+    .healthyBedrooms_detail_page_section_two{
+        
+        margin: auto 0;
+        width: 100%;
+    }
+    .healthyBedrooms_h2_obj {
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .healthyBedrooms_obj_par {
+        font-size: 16px;
+    }
+    .healthyBedrooms_ul {
+        padding-left: 0;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,23 @@
+.smartPet_detail_banner{
+    color:#F47B52;
+}
+
+
+.b2b-sub-headings-bold-smartPet{
+    color:white;
+    font-size: 55px ;
+    font-weight: 500;
+}
+
+.smartPet_banner{
+    background: black;
+    padding: 50px 0px;
+}
+
+
+@media (max-width:768px){
+    .b2b-sub-headings-bold-smartPet{
+        
+        font-size: 24px;
+    }
+}

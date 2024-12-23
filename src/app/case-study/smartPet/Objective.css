@@ -1,0 +1,96 @@
+.main_smartPet_detail_page{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+
+    color: aliceblue;
+    justify-content: space-around;
+}
+
+.section_smartPet{
+    background: #000;
+}
+.smartPet_h2_obj{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.smartPet_detail_page_section_one{
+    margin: auto 0;
+    width: 40%;
+}
+
+.smartPet_detail_page_section_two{
+    margin: auto 0;
+    width: 40%;
+}
+
+.sp_obj_line{
+    width: 240px;
+    height: 15px;bottom: 10px;
+    position: relative;
+}
+.smartPet_ul{
+    font-size: 18px;
+}
+
+.smartPet_obj_par{
+    font-size: 18px;
+}
+
+
+
+.smartPet_li_points_data{
+    margin-left: 9px;
+    line-height: 20px;
+    padding-top: 15px;
+
+}
+
+.smartPet_li_data>div span{
+    padding-top: 10px;
+}
+
+
+@media (max-width:768px){
+.li_image{
+    width: 20px;
+    height: 20px;
+}
+    .main_smartPet_detail_page{
+        padding-top: 50px;
+        display: flex;
+      
+        color: aliceblue;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smartPet_detail_page_section_one{
+        margin: auto 0;
+        width: 100%;
+    }
+    
+    .smartPet_detail_page_section_two{
+        padding-top: 20px;
+        margin: auto 0;
+        width: 100%;
+    }
+    .smartPet_h2_obj {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .smartPet_obj_par {
+        font-size: 16px;
+    }
+    .smartPet_ul {
+        padding-left: 0;
+        font-size: 16px;
+    }
+
+    .sp_obj_line{
+  display: none;
+    }
+}

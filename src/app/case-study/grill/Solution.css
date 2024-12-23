@@ -1,0 +1,161 @@
+.grill_Solution_section{
+    color: aliceblue;
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.grill_solution_para{
+text-align: center;
+}
+
+.g_solution_line{
+    width: 210px;
+    height: 15px;
+    bottom: 11px;
+    position: relative;
+}
+
+.Solution_section{
+    padding-top: 20px;
+    }
+    
+    .grill_solution_para{
+        width: 58%;
+        font-weight: 400;
+        Line-height: 36.75px;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    
+    .solution_title{
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .row .grill_div_solution  {
+        border-right:1px solid white;
+        margin:25px auto ;
+    }
+    
+    .row .grill_div_solution  {
+        border-right:1px solid white;
+        margin:25px 9px ;
+        width: 24%;
+    }
+    .row .grill_div_solution:nth-child(4){
+        border-right:none;
+        margin:25px auto ;
+    }
+
+    .row .grill_div_solution_two  {
+        border-right:1px solid white;
+        margin:25px  5px;
+    }
+
+    .grill_div_solution_two_main{
+        display: flex;
+        justify-content: center;
+    }
+    
+  
+    .grill_solution_sections{
+        font-weight: 500;
+    }
+    
+    .solution_section{
+        display:flex;
+    }
+    
+    .solution_section img{
+        width: 43px;
+        height: 43px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    
+    .solution_section p{
+        line-height: 28px;
+        width: 85%;
+        font-size: 18px;
+    
+    }
+    
+    .div_solution{
+
+
+    }
+    
+    
+    
+    @media (max-width:768px){
+
+
+       .grill_Solution_section{
+        padding-top: 50px;
+       }
+
+
+       .ul_grill_section{
+        padding-bottom: 0px;
+       }
+.solution_section img{
+   width: 22px;
+   height: 22px;
+}
+
+        .row .grill_div_solution_two  {
+            border-right:none;
+            margin:25px  5px;
+        }
+        .grill_solution_para {
+            width: 100%;
+            font-weight: 400;
+            Line-height: 24.75px;
+            font-size: 16px;
+            text-align: center;
+            padding: 0;
+         
+        }
+    
+        .solution_section p {
+           margin: 0;
+            width: 100%;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    
+        .solution_title {
+                font-size: 24px;
+    }
+
+
+
+    
+    .row .grill_div_solution {
+        width: 100%;
+        margin: 0;
+        border-right:none;
+        margin-top: 10px;
+    }
+
+    .row .grill_div_solution:nth-child(4) {
+        border-right: none;
+        margin: 10px auto;
+    }
+
+    .solution_part_heading{
+        padding: 0;
+    }
+    
+
+    .g_solution_line{
+        display: none;
+    }
+
+    
+    }
+    
+    

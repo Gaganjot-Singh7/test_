@@ -1,0 +1,157 @@
+.container_smartPet {
+    color: aliceblue;
+    background: #000;
+    padding: 50px 0px;
+}
+
+.smartPet_challenge_title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sp_challenge_line {
+    width: 300px;
+    height: 15px;
+    bottom: 5px;
+    position: relative;
+}
+
+.smartPet_line {
+    width: 10px;
+}
+
+.smartPet_challenge_para {
+    width: 60%;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.smartPet_img_data {
+    padding-top: 30px;
+}
+
+.smartPet_li_challenge {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0px 20px 10px;
+}
+
+.smartPet_li_challenge:nth-child(even) {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.line_img {
+    text-align: center;
+}
+
+.smartPet_img_profile {
+
+    width: 90%;
+    object-fit: contain;
+    float: right;
+    height: 90%;
+}
+
+
+.smartPet_img_main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smartPet_ul_challenge {
+    overflow: auto;
+    height: 500px;
+    direction: rtl;
+    text-align: left;
+}
+
+.smartPet_ul_challenge::-webkit-scrollbar {
+
+    width: 10px;
+    background-color: aliceblue;
+}
+
+.smartPet_ul_challenge::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #396ADB 0%, #7213E1 100%);
+    border-radius: 0px;
+}
+
+@media (max-width:768px) {
+
+    .sp_challenge_line {
+        display: none;
+    }
+
+    .smartPet_challenge_para {
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+
+    .smartPet_img_data {
+        padding-top: 10px;
+    }
+
+    .smartPet_line {
+        display: none;
+    }
+
+    .challenge_box {
+        padding: 10px 0px;
+    }
+
+    .smartPet_img_data {
+        padding: 0;
+    }
+
+
+    .container_smartPet {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .smartPet_img_profile {
+
+        object-fit: contain;
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+
+    .smartPet_ul_challenge {
+        padding: 0;
+        height: auto;
+    }
+
+    .smartPet_li_challenge {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    .smartPet_challenge_title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+
+    .smartPet_li_challenge {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
+
+    .smartPet_li_challenge:nth-child(even) {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+
+}

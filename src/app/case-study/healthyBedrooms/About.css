@@ -1,0 +1,64 @@
+.healthyBedrooms_heading{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.div_about{
+    font-size: 45px;
+    font-weight: 700;
+   
+}
+.about_Section{
+    background:#1F222F;
+}
+
+.about_underline{
+    width: 568px;
+    height: 15px;
+    position: relative;
+    bottom: 28px;
+
+}
+
+
+.healthyBedrooms_about_Section{
+    background:#1F222F;
+    color: aliceblue;
+    padding: 50px 0px;
+}
+
+.healthyBedrooms_about_detail{
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+
+@media (max-width:768px){
+    .healthyBedrooms_heading {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .healthyBedrooms_about_detail{
+            font-size: 16px;
+            width: 100%;
+            text-align: left;
+        
+        }
+
+        .div_about {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .about_underline {
+          display: none;
+        }
+    
+
+}

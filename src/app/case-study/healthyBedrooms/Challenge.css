@@ -1,0 +1,182 @@
+.container_healthyBedrooms{
+    color: aliceblue;
+    background: #000;
+    padding: 50px 0px;
+}
+
+
+.healthyBedrooms_challenge{
+    text-align: center;
+}
+
+
+.healthy_challenge_underline{
+    width: 260px;
+    height: 15px;
+    position: relative;
+    top:5px
+}
+
+.healthyBedrooms_challenge_title{
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.challenge_ul_part{
+    direction: rtl;
+    text-align: left;
+   
+}
+
+
+.healthyBedrooms_ul_challenge{
+    height: 500px;
+    overflow: auto;
+    
+}
+
+.healthyBedrooms_ul_challenge::-webkit-scrollbar{
+    width: 10px;
+    background: white;
+}
+.healthyBedrooms_ul_challenge::-webkit-scrollbar-thumb{
+    background: linear-gradient(180deg, #396ADB 0%, #7213E1 100%);
+    border-radius: 0px;
+}
+
+
+.healthyBedrooms_line{
+    width: 10px;
+}
+
+.healthyBedrooms_challenge_para{
+    width: 60%;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 9px;
+    text-align: center;
+}
+.healthyBedrooms_img_data{
+    padding-top: 30px;
+}
+
+.healthyBedrooms_li_challenge{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin: 20px auto;
+
+}
+.healthyBedrooms_li_challenge:nth-child(even){
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.line_img{
+    text-align: center;
+}
+
+.healthyBedrooms_img_profile{
+    width: 100%;
+    object-fit: contain;
+    float: right;
+    height: 100%;
+}
+
+
+@media (max-width:768px){
+
+
+    .healthyBedrooms_ul_challenge{
+        overflow: visible;
+    }
+
+    .healthyBedrooms_challenge_para{
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        margin: 0px;
+    } 
+
+
+    .challenge_underline {
+       display: none;
+      
+    }
+
+    .healthyBedrooms_challenge_title{
+    margin-bottom: 15px;
+    }
+
+    .healthy_challenge_underline{
+        display: none;
+    }
+
+
+  
+
+
+
+    .healthyBedrooms_img_data{
+        padding-top: 10px;
+    }
+
+    .healthyBedrooms_line{
+       display: none;
+    }
+    .challenge_box{
+        padding:10px 0px;
+    }
+    .healthyBedrooms_img_data{
+        padding: 0;
+    }
+    
+
+    .container_healthyBedrooms{
+      padding: 50px auto;
+    }
+
+    .healthyBedrooms_img_profile{
+      
+        object-fit: contain;
+       margin: 10px 0px;
+        width: 100%;
+        }
+
+
+        .healthyBedrooms_ul_challenge{
+            height: auto;
+            padding: 0;}
+
+    .healthyBedrooms_li_challenge{
+    font-size: 16px;
+    padding: 10px 0px;
+} 
+.healthyBedrooms_challenge_title {
+    text-align: center; 
+    font-size: 24px;
+    padding-bottom: 0px;
+}
+
+
+.healthyBedrooms_li_challenge{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+}
+.healthyBedrooms_li_challenge:nth-child(even){
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.healthyBedrooms_ul_challenge::-webkit-scrollbar{
+    display: none;
+}
+
+
+}
