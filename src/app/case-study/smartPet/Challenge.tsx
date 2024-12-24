@@ -27,7 +27,7 @@ function Challenges() {
             <div className="col-xs-12 col-md-5 col-lg-6 smartPet_img_main p-0 ">
               <img
                 className="smartPet_img_profile "
-                src="/smartPet/Challenge.svg"
+                src="/smartPet/challenge.svg"
                 alt="Challenge"
               />
             </div>

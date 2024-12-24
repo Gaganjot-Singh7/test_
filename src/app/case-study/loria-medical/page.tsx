@@ -54,7 +54,7 @@ function page() {
       <DetailpageLayout>
         <div className="pt-0 pb-0 b2b-black-bg poppins">
           <div
-            className="about-mask pt-5"
+            className="about-mask pt-0"
             style={{
               backgroundImage: `url(${radialBg.src})`,
               backgroundSize: "contain",
@@ -68,7 +68,7 @@ function page() {
                   className="col-12 col-sm-12 col-md-5 bannerContent p-0"
                   data-aos="fade-up-left"
                 >
-                  <h2 className="b2b-sub-headings-bold ">
+                  <h2 className=" detail_heading">
                     Started from Scratch: From Zero to{" "}
                     <span className="detail_banner">300+</span> Quality Leads in
                     a Month with Meta Ads
@@ -86,7 +86,7 @@ function page() {
                   className="animated-imgs  animated-banner-img"
                 /> */}
                   <img
-                    className="rounded img_inner"
+                    className="rounded img_inner loria_banner"
                     src="/detailpage/banner.png"
                     alt="banner"
                   />
@@ -162,33 +162,33 @@ function page() {
                     <div className="div_flex">
                       <div className="img_parent sky_grad">
                         <div className="img">
-                          <img src="/detailpage/bargraph.png" alt="bargraph"  data-aos="flip-left"/>
+                          <img src="/detailpage/bargraph.png" alt="bargraph"  data-aos="flip-left" className="img_loria_about"/>
                         </div>
                         <div className="img_des_data text-white">
                          <span className="span_color"> 300+ increase</span> in consultation bookings
                         </div>
                       </div>
-                      <div className="arrow">
+                      {/* <div className="arrow">
                        <img src="/detailpage/arrow.png" alt="arrow" />                     
-                      </div>
+                      </div> */}
                       <div className="img_parent red_grad">
                         <div className="img" >
                           <img
                             src="/detailpage/decreaseBar.png" data-aos="flip-left"
                             alt="decreaseBar"
-                            
+                             className="img_loria_about"
                           />
                         </div>
-                        <div className="img_des_data text-white">
-                          <span className="span_color">30% reduction</span> in Cost-Per-Lead (CPL)
+                        <div className="img_des_data text-white ">
+                          <span className="span_color ">30% reduction</span> in Cost-Per-Lead (CPL)
                         </div>
                       </div>
-                      <div className="arrow">
+                      {/* <div className="arrow">
                       <img src="/detailpage/arrow.png" alt="arrow" />
-                      </div>
+                      </div> */}
                       <div className="img_parent purple_grad">
                         <div className="img">
-                          <img src="/detailpage/speaker.png" alt="speaker"  data-aos="flip-left"/>
+                          <img src="/detailpage/speaker.png" alt="speaker"  data-aos="flip-left" className="img_loria_about"/>
                         </div>
                         <div className="img_des_data text-white"><span className="span_color">90%+</span> Brand Awareness </div>
                       </div>

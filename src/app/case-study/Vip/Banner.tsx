@@ -4,7 +4,7 @@ function Banner() {
   return (
     <>
     <div className="container-fluid mx-auto">
-              <div className="row m-0 position-relative align-items-center text-white pt-md-5 pt-0 justify-content-center gap-3 banner_vip">
+              <div className="row m-0 position-relative align-items-center text-white pt-md-0 pt-0 justify-content-center gap-3 banner_vip">
                 <div
                   className="col-12 col-sm-12 col-md-5 bannerContent p-0"
                   data-aos="fade-up-left"

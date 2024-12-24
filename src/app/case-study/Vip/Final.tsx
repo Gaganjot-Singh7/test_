@@ -42,7 +42,7 @@ function Final() {
             </div>
 
 
-            <div className="vip_images_parent_arrow"><img src="/Vip/arrow.svg" alt="arrow"  /></div>
+            {/* <div className="vip_images_parent_arrow"><img src="/Vip/arrow.svg" alt="arrow"  /></div> */}
 
 
             <div className="vip_images_parent sky_grad">
@@ -66,8 +66,8 @@ function Final() {
 
 
 
-            <div className="vip_images_parent_arrow">
-              <img src="/Vip/arrow.svg" alt="arrow"  /></div>
+            {/* <div className="vip_images_parent_arrow"> */}
+              {/* <img src="/vip/arrow.svg" alt="arrow"  /></div> */}
 
 
 
@@ -113,7 +113,7 @@ function Final() {
             </div>
 
 
-            <div className="vip_images_parent_arrow"><img src="/Vip/arrow.svg" alt="arrow"  /></div>
+            {/* <div className="vip_images_parent_arrow"><img src="/Vip/arrow.svg" alt="arrow"  /></div> */}
 
 
             <div className="vip_images_parent green_grad ">
