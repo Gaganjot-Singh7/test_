@@ -1,5 +1,5 @@
 
-
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import React, { useState , ChangeEvent  } from "react";
 import reviewbanner from "../../public/img/callcenreview.png"
 import radialRight from '../../public/img/radial-right.svg';   
@@ -113,7 +113,14 @@ export default function FooterMap() {
                         </div>
                         <div className="col-lg-6 col-md-12 text-center mb-3 mb-md-0 mt-4"  data-aos="fade-up"  >
                             
-                           <img src={reviewbanner.src} alt="" className="lower_banner" />
+                           {/* <img src={reviewbanner.src} alt="" className="lower_banner" /> */}
+                        
+                           <DotLottieReact
+                  src='json/6MzeMAq9gi.json'
+                  loop
+                  autoplay
+                  className="animated-imgs animated-banner-img"
+                />
                         </div>   
                     </div>
             </div> 

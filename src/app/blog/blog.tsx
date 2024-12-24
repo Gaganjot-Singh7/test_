@@ -96,6 +96,15 @@ function Home() {
   const handleImageClick = (id: string, slugUrl: string) => {
     // Navigate using the Next.js router
     router.push(`/blog-detail/${slugUrl}`);
+    setTimeout(() => {
+      if (typeof window !== 'undefined') {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: 'smooth',
+        });
+      }
+    }, 200);
   };
 
 
@@ -136,13 +145,13 @@ const renderBlogs = () => {
       <div className="blog_section bg-dark h-100"  onClick={() => handleImageClick(blog._id, blog.slugUrl)}>
         <img className="blog" src={blog.imageUrl} alt="Blog" />
         <div className="p-4 pb-3 position-relative" style={{ background: "#1F222F" }}>
-          <h1 className="blog_desc mb-2 blog-title">
+          <h1 className="blog_desc mb-2 blog-title text-white">
             {blog.heading.split(" ").slice(0, 10).join(" ")}
             {blog.heading.split(" ").length > 10 ? "..." : ""}
           </h1>
           <div className="mt-4 mb-2 btn-ab">
             <button
-              className="btn btn-outline-primary btn-custom m-0 d-flex gap-2"
+              className="b2b-btn b2b-btn-sm  m-0"
               onClick={() => handleImageClick(blog._id, blog.slugUrl)}
             >
               View Detail

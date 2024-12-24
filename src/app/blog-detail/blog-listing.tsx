@@ -7,6 +7,8 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import axios from 'axios'; 
 import "../blog/blog.css"; 
+import { log } from "console";
+import ScrollToTop from "react-scroll-to-top";
 
 
 interface BlogItem {
@@ -71,6 +73,19 @@ function BlogDetail() {
 const handleImageClick = (id: string, slugUrl: string) => {
   // Navigate using the Next.js router
   router.push(`/blog-detail/${slugUrl}`);
+  setTimeout(() => {
+    if (typeof window !== 'undefined') {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth',
+      });
+    }
+  }, 500);
+  
+ 
+  
+
 };
   return (
     <>
@@ -90,7 +105,9 @@ const handleImageClick = (id: string, slugUrl: string) => {
                         <p className="blog_descs mb-0 p-2">
                         {blog.heading}
                         </p>
+                      
                       </div>
+                      
                     </div> 
                    
         </div>

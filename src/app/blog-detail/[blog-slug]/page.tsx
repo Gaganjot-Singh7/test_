@@ -30,7 +30,7 @@ function BlogDetail() {
     // Extract slug from the URL 
     // const { slug } = router.query // Make sure the slug corresponds to the dynamic part of your path ['/blog-detail/[slug]']
     // console.log(slug,'slugslug')
-    console.log("pathname ::", pathname)
+    
     // if (!slug) return; // Ensure there's a slug to fetch data for
     const parts = pathname.split('/');
 
@@ -44,10 +44,10 @@ function BlogDetail() {
           throw new Error(`Blog not found: ${response.statusText}`);
         }
         const data = await response.json();
-        console.log("Fetched data:", data);
+        // console.log("Fetched data:", data);
         setBlog(data.blog);
       } catch (err) {
-        console.error("Fetching blog failed:", err.message);
+        // console.error("Fetching blog failed:", err.message);
         setError(err.message);
       } finally {
         setLoading(false);
@@ -92,7 +92,7 @@ function BlogDetail() {
       ? `${wwwURL}/${formattedTitle}`
       : `${baseURL}/${formattedTitle}`;
   }
-  console.log('blog?.slugUrl', blog?.slugUrl)
+  // console.log('blog?.slugUrl', blog?.slugUrl)
   const PageMeta = {
     title: blog?.slugUrl || "Default Blog Title",  // Fallback title
     description: blog?.pageDescription || "Default blog description.",  // Fallback description
@@ -100,7 +100,7 @@ function BlogDetail() {
     image: "/img/portfolio/b1.png",  // Image for sharing
   };
 
-  console.log('PageMeta:', PageMeta);
+  // console.log('PageMeta:', PageMeta);
 
   return (
     <>
@@ -119,7 +119,7 @@ function BlogDetail() {
               <div className="blog_section bg-dark">
                 <img className="blogs w-100" src={blog?.imageUrl} alt="Blog" />
                 <div className="p-4 pb-3 bgblack">
-                  <h1 className="blog_desc mb-2">{blog?.heading}</h1>
+                  <h1 className="blog_desc mb-2">{blog?.heading} </h1>
                   <div className="title_description" dangerouslySetInnerHTML={{ __html: blog?.description }}></div>
                 </div>
               </div>

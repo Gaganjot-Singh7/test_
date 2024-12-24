@@ -8,10 +8,23 @@ import Callcenservices from "../../../component/call-center/callcenservices";
 import Callcenterneeds from "../../../component/call-center/callcenterneeds";
 import Callcenteraward from "../../../component/call-center/callcenaward" ;
 import Callcenquestion from "../../../component/call-center/callcenquestion";
-import Callcenreview from "../../../component/call-center/callcenreview"
+import Callcenreview from "../../../component/call-center/callcenreview";
+import PageHead from "../../../component/PageHead";
 function page() {
+
+  const PageMeta = {
+    title: " Customer Support Services | Base2Brand Infotech",
+    description:
+      "Reach Base2Brand for expert customer support in India. Quick help with all your service needs.",
+    // canonical:canonical, // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
+
+
+
   return (
     <div>
+       <PageHead PageMeta={PageMeta}/>
       <Header/>
       <Callcenterbanner/>
       <Callcenterworks/>
